@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky background -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M0,0 h400 v300 h-400 z" />
+
+    <!-- Main Platform -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M80,220 h240 v20 h-240 z" />
+
+    <!-- Main Building -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,140 h160 v80 h-160 z" />
+    <path
+        android:fillColor="#EEEEEE"
+        android:pathData="M140,140 q60,-80 120,0 z" />
+
+    <!-- Main Dome Top -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M195,50 h10 v20 h-10 z" />
+
+    <!-- Four Minarets -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M85,100 h10 v120 h-10 z" />
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M305,100 h10 v120 h-10 z" />
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M105,120 h8 v100 h-8 z" />
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M287,120 h8 v100 h-8 z" />
+
+    <!-- Garden/Water -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M0,240 h400 v60 h-400 z" />
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M0,240 h150 v60 h-150 z" />
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M250,240 h150 v60 h-150 z" />
+
+</vector>
